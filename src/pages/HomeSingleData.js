@@ -4,7 +4,7 @@ const HomeSingleData = ({ props }) => {
 
     return (
         <div>
-            <div key={props.seqno}> { props.ascii[0] props.ascii[1] }
+            <div key={props.seqno}> { props.ascii[0] } { props.ascii[1] }
             </div>
         </div>
     )
